@@ -1,0 +1,291 @@
+<resources>
+    <string name="app_name" translatable="false">Test Retrofit2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="email">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="language">Language</string>
+    <string name="gps_settings">GPS Settings</string>
+    <string name="help">Help</string>
+    <string name="customer">Customer</string>
+    <string name="trip">Trip</string>
+    <string name="search_customer">Search by customer id</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="select_preferred_language">Select preferred language</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="data_collection_form">Data Collection Form</string>
+    <string name="intent_customer">customer</string>
+    <string name="authenticating">Authenticating</string>
+    <string name="login_failed">Login failed</string>
+    <string name="enter_a_valid_email_address">Enter a valid email address</string>
+    <string name="validate_password">Between 4 and 10 alphanumeric characters</string>
+    <string name="update_data_collected">Update Data Collected</string>
+    <string name="view_data_collected">View Data Collected</string>
+    <string name="collect_data">Credit application</string>
+    <string name="update_data">Update data</string>
+    <string name="view_map_data">View map data</string>
+    <string name="record_route">Record route</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="refresh">Refresh</string>
+    <string name="valid_details">Please enter valid details</string>
+    <string name="success">success</string>
+    <string name="save">Save</string>
+    <string name="gender">Gender:</string>
+    <string name="female">FEMALE</string>
+    <string name="male">MALE</string>
+    <string name="enter_organization">Enter organization</string>
+    <string name="enter_customer_id">Enter customer id</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter Lastname</string>
+    <string name="enter_birthplace">Enter birthplace</string>
+    <string name="enter_birthdate">Select birthdate</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="enter_mother_s_maiden_name">Enter mother\'s name</string>
+    <string name="enter_address">Enter address</string>
+    <string name="geo_location">Geo location</string>
+    <string name="enter_occupation">Enter occupation</string>
+    <string name="credit_application">Credit application</string>
+    <string name="locations">Locations</string>
+    <string name="control_dates">Control dates</string>
+    <string name="past_credits">Past credits</string>
+    <string name="business_profile">Business profile</string>
+    <string name="investments_proposals">Investments proposals</string>
+    <string name="incidents_history">Incidents history</string>
+    <string name="business_expenses">Business Expenses</string>
+    <string name="card_debts">Debts</string>
+    <string name="savings">Savings</string>
+    <string name="other_revenues">Other Revenues</string>
+    <string name="personal_situation">Personal Situation</string>
+    <string name="operating_accounts">Operating Accounts</string>
+    <string name="operating_costs">Operating Costs</string>
+    <string name="net_results">Net Results</string>
+    <string name="sales">Sales</string>
+    <string name="fixed_assets">Fixed Assets</string>
+    <string name="current_assets">Current Assets</string>
+    <string name="assets">Assets</string>
+    <string name="permanent_capital">Permanent Capital</string>
+    <string name="short_term_debts">Short Term Debts</string>
+    <string name="total_liabilities">Total Liabilities</string>
+    <string name="customer_name">Customer name</string>
+    <string name="customer_id">Customer id</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="phone_number">Phone number</string>
+    <string name="credits_number">Credits number</string>
+    <string name="activity">Activity</string>
+    <string name="business_registration_date">Business registration date</string>
+    <string name="business_age">Business age</string>
+    <string name="investment_proposed">Investment proposed</string>
+    <string name="amount_proposed">Amount proposed</string>
+    <string name="deadlines_number">Deadlines number</string>
+    <string name="sector">Sector</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="db_customer">customer</string>
+    <string name="logout">Logout</string>
+    <string name="customer_type">Customer type :</string>
+    <string name="choose_location">Choose location</string>
+    <string name="location_not_collected">Location not collected</string>
+    <string name="birth_place">Birth Place:</string>
+    <string name="mother_maiden_name">Mother Name:</string>
+    <string name="phone_num">Phone Number:</string>
+    <string name="address_">Address:</string>
+    <string name="type_of_customer">Type Of Customer:</string>
+    <string name="occupation">Occupation:</string>
+    <string name="organization">Organization:</string>
+    <string name="branch_id">Branch ID:</string>
+    <string name="customer_portfolio">Customer Portfolio</string>
+    <string name="enter_portfolio_id">Enter portfolio id</string>
+    <string name="enter_committee_visit_date">Enter committee visit date</string>
+    <string name="enter_legal_procedures_date">Enter legal procedures date</string>
+    <string name="enter_control_visit_date">Enter control visit date</string>
+    <string name="enter_credit_id">Enter credit id</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_warranty">Enter warranty</string>
+    <string name="enter_management_structure">Enter management structure</string>
+    <string name="enter_interim_manager_name">Enter interim manager name</string>
+    <string name="enter_interim_manager_phone">Enter interim manager phone</string>
+    <string name="enter_years_experience">Enter years experience</string>
+    <string name="enter_previous_activity">Enter previous activity</string>
+    <string name="enter_education_level">Enter education level</string>
+    <string name="enter_full_time_count_men">Enter full time count men</string>
+    <string name="enter_full_time_salaries_men">Enter full time salaries men</string>
+    <string name="enter_full_time_count_women">Enter full time count women</string>
+    <string name="enter_full_time_salaries_women">Enter full time salaries women</string>
+    <string name="enter_part_time_count_men">Enter part time count men</string>
+    <string name="enter_part_time_count_women">Enter part time count women</string>
+    <string name="enter_part_time_salaries_men">Enter part time salaries men</string>
+    <string name="enter_part_time_salaries_women">Enter part time salaries women</string>
+    <string name="select_details">Select details</string>
+    <string name="enter_details">Enter details</string>
+    <string name="enter_previous_investment">Enter previous investment</string>
+    <string name="enter_non_realization">Enter non realization</string>
+    <string name="enter_admin_tax_authorizations">Admin tax authorizations</string>
+    <string name="enter_occurrence_date">Enter occurrence date</string>
+    <string name="enter_type">Enter type</string>
+    <string name="enter_expense_type">Enter expense type</string>
+    <string name="enter_notes">Enter notes</string>
+    <string name="enter_source">Enter source</string>
+    <string name="enter_payment_date">Enter payment date</string>
+    <string name="enter_last_payment">Enter last payment</string>
+    <string name="enter_availability_date">Enter availability date</string>
+    <string name="enter_spouse_number">Enter spouse number</string>
+    <string name="enter_marital_status">Enter marital status</string>
+    <string name="enter_dependents">Enter dependents</string>
+    <string name="enter_spouse_name">Enter spouse name</string>
+    <string name="enter_human_resource">Enter human resource</string>
+    <string name="enter_for_water">Enter for water</string>
+    <string name="enter_for_electricity">Enter for electricity</string>
+    <string name="enter_for_tax">Enter for tax</string>
+    <string name="enter_for_fuel">Enter for fuel</string>
+    <string name="enter_for_transportation">Enter for transportation</string>
+    <string name="enter_for_rent">Enter for rent</string>
+    <string name="enter_for_telephone">Enter for telephone</string>
+    <string name="enter_ratio">Enter ratio</string>
+    <string name="enter_domestic_costs">Enter domestic costs</string>
+    <string name="enter_result_after_cost">Enter result after cost</string>
+    <string name="enter_credit_monthly_payment">Enter credit monthly payment</string>
+    <string name="enter_period">Enter period</string>
+    <string name="enter_lands_value">Enter lands value</string>
+    <string name="enter_buildings_value">Enter buildings value</string>
+    <string name="enter_cars_value">Enter cars value</string>
+    <string name="enter_others_value">Enter others value</string>
+    <string name="enter_merchandise_stocks">Enter merchandise stocks</string>
+    <string name="enter_finished_goods_stocks">Enter finished goods stocks</string>
+    <string name="enter_raw_material_stocks">Enter raw material stocks</string>
+    <string name="enter_clients">Enter clients</string>
+    <string name="enter_available_value">Enter available value</string>
+    <string name="enter_others">Enter others</string>
+    <string name="enter_business_balance_sheet">Enter business balance sheet</string>
+    <string name="enter_personal_balance_sheet">Enter personal balance sheet</string>
+    <string name="enter_own_capital">Enter own capital</string>
+    <string name="enter_long_term_debt">Enter long term debt</string>
+    <string name="enter_suppliers">Enter suppliers</string>
+    <string name="enter_eligible_position">Enter eligible position</string>
+    <string name="enter_creditors">Enter creditors</string>
+    <string name="enter_total_debt">Enter total debt</string>
+    <string name="enter_total_savings">Enter total savings</string>
+    <string name="enter_balance">Enter balance</string>
+    <string name="enter_total_liability">Enter total liability</string>
+    <string name="select_lifestyle_vs_revenues">Is lifestyle matching revenues</string>
+    <string name="past_history">Past history</string>
+    <string name="debt">Debt</string>
+    <string name="enter_work_conditions">Enter work conditions</string>
+    <string name="enter_workplace_health_safety">Enter workplace health safety</string>
+    <string name="enter_following_regulations">Enter following regulations</string>
+    <string name="is_owner">Is owner</string>
+    <string name="spouse_aware">Spouse aware</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="please_add_customers">Please add customers</string>
+    <string name="logout_unsuccessful">Logout unsuccessful</string>
+    <string name="failed">Failed</string>
+    <string name="error">Error</string>
+    <string name="_0" translatable="false">I</string>
+    <string name="customer_created">Customer created successfully</string>
+    <string name="customer_created_local">Customer created in local db</string>
+    <string name="skip">Skip</string>
+    <string name="saving_form">Saving form</string>
+    <string name="enter_description">Enter description</string>
+    <string name="poi_saved">Point of interest saved</string>
+    <string name="this_field_is_empty">This field is empty</string>
+    <string name="some_fields_are_empty">Some fields are empty</string>
+    <string name="create_poi">Create POI</string>
+    <string name="poi" translatable="false">POI</string>
+    <string name="current_location">Current Location</string>
+    <string name="check_internet">Please check your internet connection</string>
+    <string name="forms_already_saved_to_the_server">Forms already saved to the server</string>
+    <string name="customer_location_not_found">Customer location not found</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="enter_procurement_costs">Enter Procurement Costs</string>
+    <string name="enter_gross_margin">Enter Gross Margin</string>
+    <string name="enter_percentage">Enter percentage</string>
+    <string name="select_gender">Please select gender</string>
+    <string name="user_not_found">User not found</string>
+    <string name="pin_user_dashboard">You want to pin the user to dashboard?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="user_already_pinned">This user is already pinned on your dashboard</string>
+    <string name="searching_customer">Searching customer</string>
+    <string name="action_settings">settings</string>
+
+    <string-array name="type_of_customer">
+        <item>MAIN</item>
+        <item>GUARANTOR</item>
+    </string-array>
+
+    <string-array name="bool_check">
+        <item>false</item>
+        <item>true</item>
+    </string-array>
+
+    <string-array name="sector">
+        <item>Breeding</item>
+        <item>Agriculture</item>
+        <item>Manufacturing</item>
+        <item>Trade</item>
+        <item>Services</item>
+    </string-array>
+
+    <string-array name="details">
+        <item>Entrepreneur</item>
+        <item>Manager</item>
+        <item>Head of the workshop</item>
+    </string-array>
+
+    <string-array name="type_incidents">
+        <item>Theft</item>
+        <item>fire</item>
+        <item>disease</item>
+        <item>death</item>
+        <item>another closure</item>
+    </string-array>
+
+    <string-array name="type_business">
+        <item>Debt</item>
+        <item>housing</item>
+        <item>water/electricity</item>
+        <item>leisure</item>
+        <item>health</item>
+        <item>education</item>
+        <item>spouse</item>
+        <item>unforeseen</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="source_debts">
+        <item>Providers</item>
+        <item>Bank/Sacco</item>
+        <item>fund business</item>
+        <item>tontine</item>
+    </string-array>
+
+    <string-array name="source_savings">
+        <item>Providers</item>
+        <item>Bank/Sacco</item>
+        <item>fund business</item>
+        <item>tontine</item>
+    </string-array>
+
+    <string-array name="marital_status">
+        <item>Married</item>
+        <item>single</item>
+        <item>divorced</item>
+        <item>widowed</item>
+        <item>cohabitee</item>
+        <item>separated</item>
+    </string-array>
+    <string name="pref_dream_text_key">pref_dream_text</string>
+    <string name="pref_dream_text_default">zzzZZZzzz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

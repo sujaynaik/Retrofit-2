@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_customer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <EditText
+                android:id="@+id/tvCustomerId"
+                style="@style/normal_edittext_style"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/enter_customer_id"
+                android:inputType="number"
+                android:maxLength="10"
+                android:text="42334" />
+
+            <EditText
+                android:id="@+id/tvFirstName"
+                style="@style/normal_edittext_style"
+                android:layout_below="@+id/tvCustomerId"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/enter_first_name"
+                android:inputType="textCapSentences|textPersonName"
+                android:text="sgwe " />
+
+            <EditText
+                android:id="@+id/tvLastName"
+                style="@style/normal_edittext_style"
+                android:layout_below="@+id/tvFirstName"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/enter_last_name"
+                android:inputType="textCapSentences|textPersonName"
+                android:text="wegwegweg " />
+
+            <EditText
+                android:id="@+id/tvBirthPlace"
+                style="@style/normal_edittext_style"
+                android:layout_below="@+id/tvLastName"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/enter_birthplace"
+                android:inputType="textCapSentences|textPersonName"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:text="wefwef " />
+
+            <TextView
+                android:id="@+id/tvBirthDate"
+                style="@style/textViewBlackMedium"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/tvBirthPlace"
+                android:layout_marginTop="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="@string/enter_birthdate"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:id="@+id/tvPhone"
+                style="@style/normal_edittext_style"
+                android:layout_below="@+id/tvBirthDate"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/enter_phone_number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:text="234242349" />
+
+            <EditText
+                android:id="@+id/tvMother"
+                style="@style/normal_edittext_style"
+                android:layout_below="@+id/tvPhone"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/enter_mother_s_maiden_name"
+                android:inputType="textCapSentences|textPersonName"
+                android:text="afaff " />
+
+            <EditText
+                android:id="@+id/tvAddress"
+                style="@style/normal_edittext_style"
+                android:layout_below="@+id/tvMother"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/enter_address"
+                android:inputType="textCapSentences|textPostalAddress"
+                android:text="efewf" />
+
+            <TextView
+                android:id="@+id/tvLabelType"
+                style="@style/textViewBlackMedium"
+                android:layout_below="@+id/tvAddress"
+                android:layout_marginTop="8dp"
+                android:visibility="gone"
+                android:text="@string/customer_type" />
+
+            <Spinner
+                android:id="@+id/spType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAddress"
+                android:layout_marginTop="8dp"
+                android:visibility="gone"
+                android:layout_toRightOf="@+id/tvLabelType"
+                android:entries="@array/type_of_customer"/>
+
+            <TextView
+                android:id="@+id/tvLocation"
+                style="@style/textViewBlackMedium"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/spType"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="Panjim"
+                android:hint="@string/geo_location"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:id="@+id/tvOccupation"
+                style="@style/normal_edittext_style"
+                android:layout_below="@+id/tvLocation"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/enter_occupation"
+                android:inputType="textCapSentences|textPersonName"
+                android:text="efefe" />
+
+            <EditText
+                android:id="@+id/tvOrganization"
+                style="@style/normal_edittext_style"
+                android:layout_below="@+id/tvOccupation"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:text="awfdwfw"
+                android:hint="@string/enter_organization"
+                android:inputType="textCapSentences|textPersonName" />
+
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvOrganization"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvLabelGender"
+                    style="@style/textViewBlackMedium"
+                    android:text="@string/gender" />
+
+                <RadioButton
+                    android:id="@+id/rbMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male" />
+
+                <RadioButton
+                    android:id="@+id/rbFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/bSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rgGender"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:text="@string/save" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,343 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Textview-->
+    <style name="textViewMediumBold">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textViewLargeBold">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textViewSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="textViewNormal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textViewMedium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="textViewLarge">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textViewExtraLarge">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textViewXXL">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="textViewXXXL">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="textViewHuge">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">27sp</item>
+    </style>
+
+    <!-- Textview BlueGrey -->
+    <style name="textViewBlueGreySmall" parent="textViewSmall">
+        <item name="android:textColor">@color/blue_grey</item>
+    </style>
+
+    <style name="textViewBlueGreyNormal" parent="textViewNormal">
+        <item name="android:textColor">@color/blue_grey</item>
+    </style>
+
+    <style name="textViewBlueGreyMedium" parent="textViewMedium">
+        <item name="android:textColor">@color/blue_grey</item>
+    </style>
+
+    <style name="textViewBlueGreyLarge" parent="textViewLarge">
+        <item name="android:textColor">@color/blue_grey</item>
+    </style>
+
+    <style name="textViewBlueGreyExtraLarge" parent="textViewExtraLarge">
+        <item name="android:textColor">@color/blue_grey</item>
+    </style>
+
+    <style name="textViewBlueGreyXXL" parent="textViewXXL">
+        <item name="android:textColor">@color/blue_grey</item>
+    </style>
+
+    <style name="textViewBlueGreyXXXL" parent="textViewXXXL">
+        <item name="android:textColor">@color/blue_grey</item>
+
+    </style>
+
+    <!-- Textview Green -->
+    <!--<style name="textViewGreenSmall" parent="textViewSmall">
+        <item name="android:textColor">@color/green_text</item>
+    </style>
+
+    <style name="textViewGreenNormal" parent="textViewNormal">
+        <item name="android:textColor">@color/green_text</item>
+    </style>
+
+    <style name="textViewGreenMedium" parent="textViewMedium">
+        <item name="android:textColor">@color/green_text</item>
+    </style>
+
+    <style name="textViewGreenLarge" parent="textViewLarge">
+        <item name="android:textColor">@color/green_text</item>
+    </style>
+
+    <style name="textViewGreenExtraLarge" parent="textViewExtraLarge">
+        <item name="android:textColor">@color/green_text</item>
+    </style>
+
+    <style name="textViewGreenXXL" parent="textViewXXL">
+        <item name="android:textColor">@color/green_text</item>
+    </style>
+
+    <style name="textViewGreenXXXL" parent="textViewXXXL">
+        <item name="android:textColor">@color/green_text</item>
+    </style>-->
+
+    <!-- Textview Grey -->
+    <!--<style name="textViewGreySmall" parent="textViewSmall">
+        <item name="android:textColor">@color/gray_text</item>
+    </style>
+
+    <style name="textViewGreyNormal" parent="textViewNormal">
+        <item name="android:textColor">@color/gray_text</item>
+    </style>
+
+    <style name="textViewGreyMedium" parent="textViewMedium">
+        <item name="android:textColor">@color/gray_text</item>
+    </style>
+
+    <style name="textViewGreyLarge" parent="textViewLarge">
+        <item name="android:textColor">@color/gray_text</item>
+    </style>
+
+    <style name="textViewGreyExtraLarge" parent="textViewExtraLarge">
+        <item name="android:textColor">@color/gray_text</item>
+    </style>
+
+    <style name="textViewGreyXXL" parent="textViewXXL">
+        <item name="android:textColor">@color/gray_text</item>
+    </style>
+
+    <style name="textViewGreyXXXL" parent="textViewXXXL">
+        <item name="android:textColor">@color/gray_text</item>
+    </style>-->
+
+    <!-- Textview red_text -->
+    <style name="textViewRedSmall" parent="textViewSmall">
+        <item name="android:textColor">@color/red_text</item>
+    </style>
+
+    <style name="textViewRedNormal" parent="textViewNormal">
+        <item name="android:textColor">@color/red_text</item>
+    </style>
+
+    <style name="textViewRedMedium" parent="textViewMedium">
+        <item name="android:textColor">@color/red_text</item>
+    </style>
+
+    <style name="textViewRedLarge" parent="textViewLarge">
+        <item name="android:textColor">@color/red_text</item>
+    </style>
+
+    <style name="textViewRedExtraLarge" parent="textViewExtraLarge">
+        <item name="android:textColor">@color/red_text</item>
+    </style>
+
+    <style name="textViewRedXXL" parent="textViewXXL">
+        <item name="android:textColor">@color/red_text</item>
+    </style>
+
+    <style name="textViewRedXXXL" parent="textViewXXXL">
+        <item name="android:textColor">@color/red_text</item>
+    </style>
+
+    <!-- Textview white -->
+    <style name="textViewWhiteSmall" parent="textViewSmall">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <style name="textViewWhiteNormal" parent="textViewNormal">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <style name="textViewWhiteMedium" parent="textViewMedium">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <style name="textViewWhiteLarge" parent="textViewLarge">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <style name="textViewWhiteExtraLarge" parent="textViewExtraLarge">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <style name="textViewWhiteXXL" parent="textViewXXL">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <style name="textViewWhiteXXXL" parent="textViewXXXL">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <style name="textViewWhiteHuge" parent="textViewHuge">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+
+    <!-- Textview black -->
+    <style name="textViewBlackSmall" parent="textViewSmall">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="textViewBlackNormal" parent="textViewNormal">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="textViewBlackMedium" parent="textViewMedium">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="textViewNavBlackLarge" parent="textViewLarge">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="textViewBlackLarge" parent="textViewLarge">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="textViewBlackExtraLarge" parent="textViewExtraLarge">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="textViewBlackXXL" parent="textViewXXL">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="textViewBlackXXXL" parent="textViewXXXL">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="textViewBlackHuge" parent="textViewHuge">
+        <item name="android:textColor">@color/black_text</item>
+    </style>
+
+    <style name="textViewBlackTitle" parent="textViewBlackExtraLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="textViewGreySubTitle" parent="textViewLarge">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="textViewLightBlackSubTitle" parent="textViewLarge">
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="textViewItalic" parent="textViewMedium">
+        <item name="android:textColor">@color/light_black</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- Edittext -->
+    <style name="normal_edittext_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray_d</item>
+        <!--<item name="android:textCursorDrawable">@drawable/text_cursor_gray_3</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+        <!--<item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>-->
+    </style>
+
+    <style name="form_edittext_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray_d</item>
+        <!--<item name="android:textCursorDrawable">@drawable/text_cursor_gray_3</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:imeOptions">actionNext</item>
+        <!--<item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>-->
+    </style>
+
+    <style name="login_edittext_style" parent="normal_edittext_style">
+        <!--<item name="android:background">@drawable/edittext_login</item>-->
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColorHint">@color/blue_grey</item>
+        <item name="android:textColor">@color/off_white</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="core_edittext_style" parent="normal_edittext_style">
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="core_edittext_style2" parent="core_edittext_style">
+        <item name="android:textColor">@color/off_white</item>
+        <item name="android:textColorHint">@color/gray_a</item>
+    </style>
+
+    <!--- Spinner -->
+    <style name="spinner_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Line -->
+    <style name="line_black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.7sp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="line_grey" parent="line_black">
+        <item name="android:background">@color/gray_b</item>
+    </style>
+
+</resources>
