@@ -23,18 +23,36 @@ public class RestClient {
 
     private static String TAG = "Retrofit";
 
+    private static final HttpLoggingInterceptor.Level LOG_LEVEL
+            = Constant.DEBUG ? HttpLoggingInterceptor.Level.BODY : HttpLoggingInterceptor.Level.NONE;
+
     /**
      * @return REST Adapter for API's
      */
     private static Retrofit getRestAdapter() {
-        OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
+        HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
+        interceptor.setLevel(LOG_LEVEL);
+        OkHttpClient client = new OkHttpClient.Builder()
+                .followRedirects(true)
+                .readTimeout(160, TimeUnit.SECONDS)
+                .connectTimeout(160, TimeUnit.SECONDS)
+                .addInterceptor(interceptor)
+                .build();
+
+        return new Retrofit.Builder()
+                .baseUrl(Constant.BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create())
+                .client(client)
+                .build();
+        
+        /*OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
         OkHttpClient client = httpClient.build();
 
         return new Retrofit.Builder()
                 .baseUrl(Constant.API_REQUEST)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
-                .build();
+                .build();*/
     }
 
     public static TestApi getTestApi() {
@@ -42,7 +60,22 @@ public class RestClient {
     }
 
     private static Retrofit getRestAdapter(final String token) {
-        OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
+        HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
+        interceptor.setLevel(LOG_LEVEL);
+        OkHttpClient client = new OkHttpClient.Builder()
+                .followRedirects(true)
+                .readTimeout(160, TimeUnit.SECONDS)
+                .connectTimeout(160, TimeUnit.SECONDS)
+                .addInterceptor(interceptor)
+                .build();
+
+        return new Retrofit.Builder()
+                .baseUrl(Constant.BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create())
+                .client(client)
+                .build();
+        
+        /*OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
         httpClient.addInterceptor(new Interceptor() {
             @Override
             public Response intercept(Chain chain) throws IOException {
@@ -74,7 +107,7 @@ public class RestClient {
                 .baseUrl(Constant.API_REQUEST)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
-                .build();
+                .build();*/
     }
 
     public static TestApi getTestApi(String token) {
