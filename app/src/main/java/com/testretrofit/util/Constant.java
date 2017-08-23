@@ -12,6 +12,7 @@ public class Constant {
     public static final String DB_NAME = "test_retrofit";
     private static final String APP_VERSION = "v1";
     public static boolean DEBUG = true;
+    static boolean DEBUG_ANIM = true;
     public static boolean DEBUG_SIGNIN = false;
 
     public static final String API_REQUEST = "http://www.host.com/";
@@ -26,6 +27,20 @@ public class Constant {
     public static final String SUCCESS = "success";
     public static final int SPLASH_SHOW_TIME = 1000;
     public static final long LOCATION_UPDATE_TIME = 120000;
+    public static final String DATE_FORMAT_1 = "yyyy-MM-dd HH:mm:ss";
+    public static final String DATE_FORMAT_2 = "dd-MM-yyyy";
+    public static final String DATE_FORMAT_3 = "HH:mm";
+    public static final String DATE_FORMAT_4 = "yy";
+    public static final String DATE_FORMAT_5 = "MM";
+    public static final String DATE_FORMAT_6 = "dd/MM/yyyy";
+    public static final int ANIM_DURATION_1 = 250;
+    public static final int ANIM_DURATION_2 = 500;
+    public static final int ANIM_DURATION_3 = 40;
+    public static final long HANDLER_DURATION_1 = 40;
+    public static final long HANDLER_DURATION_2 = 60;
+    public static final long HANDLER_DURATION_3 = 80;
+    public static final long HANDLER_DURATION_4 = 500;
+    public static final long HANDLER_DURATION_5 = 2000;
 
     /**
      * INTENT EXTRAS
